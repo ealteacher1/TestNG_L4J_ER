@@ -106,7 +106,7 @@
           <version>2.22.1</version>
           <configuration>
 			  <suiteXmlFiles>
-				  <suiteXmlFile>PipeLine\executionProfile\${xmlFiles}</suiteXmlFile>
+				  <suiteXmlFile>PipeLine\${xmlFiles}</suiteXmlFile>
 			  </suiteXmlFiles>
 			  
 		  </configuration>
