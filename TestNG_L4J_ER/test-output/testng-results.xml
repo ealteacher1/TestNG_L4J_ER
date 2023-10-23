@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-22T20:28:36 EDT" name="Myntra websiteTest" finished-at="2023-10-22T20:28:47 EDT" duration-ms="11388">
+    <groups>
+    </groups>
+    <test started-at="2023-10-22T20:28:36 EDT" name="Test" finished-at="2023-10-22T20:28:47 EDT" duration-ms="11388">
+      <class name="TestNG_CLasses.ExTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG_CLasses.ExTest@9cd25ff]" started-at="2023-10-22T20:28:36 EDT" name="beforeTest" finished-at="2023-10-22T20:28:36 EDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:TestNG_CLasses.ExTest@9cd25ff]" started-at="2023-10-22T20:28:36 EDT" name="beforeClass" finished-at="2023-10-22T20:28:45 EDT" duration-ms="8718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.myntra.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="tc1_Validate_Login_Functionality()[pri:0, instance:TestNG_CLasses.ExTest@9cd25ff]" started-at="2023-10-22T20:28:45 EDT" name="tc1_Validate_Login_Functionality" finished-at="2023-10-22T20:28:45 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_Validate_Login_Functionality -->
+        <test-method signature="tc2_Registration_Validation()[pri:0, instance:TestNG_CLasses.ExTest@9cd25ff]" started-at="2023-10-22T20:28:45 EDT" name="tc2_Registration_Validation" finished-at="2023-10-22T20:28:45 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_Registration_Validation -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG_CLasses.ExTest@9cd25ff]" started-at="2023-10-22T20:28:45 EDT" name="afterClass" finished-at="2023-10-22T20:28:47 EDT" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG_CLasses.ExTest@9cd25ff]" started-at="2023-10-22T20:28:47 EDT" name="afterTest" finished-at="2023-10-22T20:28:47 EDT" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG_CLasses.ExTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Myntra websiteTest -->
+</testng-results>

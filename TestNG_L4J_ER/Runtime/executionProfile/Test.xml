@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Myntra websiteTest">
+<!-- 	<listeners>
+		<listener class-name="ListenersPack.IListeners"></listener>	
+	</listeners>
+	-->
+	
+	
+	
+  <test thread-count="5" name="Test">
+	  <parameter name="browser" value="${Browser}"></parameter>
+	  <parameter name="websiteURL" value="${URL}"></parameter>
+    <classes>
+      <class name="TestNG_CLasses.ExTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

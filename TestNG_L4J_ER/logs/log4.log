@@ -1,0 +1,5 @@
+11:09:59.130 [main] INFO  - Initializing the Browser
+11:10:04.134 [main] INFO  - Browser initialized
+11:10:04.135 [main] INFO  - Setting up BRowser and going to website
+11:10:06.437 [main] INFO  - landed into the Website Homepage
+11:10:06.443 [main] INFO  - checking for Women button Visibility
