@@ -9,8 +9,8 @@
 	
 	
   <test thread-count="5" name="Test">
-	  <parameter name="browser" value="chrome"></parameter>
-	  <parameter name="websiteURL" value="https://www.myntra.com"></parameter>
+	  <parameter name="browser" value="${BROWSER}"></parameter>
+	  <parameter name="websiteURL" value="${URL}"></parameter>
     <classes>
       <class name="TestNG_CLasses.ExTest"/>
     </classes>
