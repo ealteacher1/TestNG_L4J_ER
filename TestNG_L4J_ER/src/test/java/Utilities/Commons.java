@@ -37,7 +37,7 @@ public class Commons {
 	
 	public ExtentReports reports = new ExtentReports();
 //	public ExtentSparkReporter htmlReporter=new ExtentSparkReporter("Results/shamsevanExtentRep_"+System.currentTimeMillis()+".html");
-	public ExtentSparkReporter htmlReporter=new ExtentSparkReporter("Results/shamsevan.html");
+	public ExtentSparkReporter htmlReporter=new ExtentSparkReporter("Results/jenkins_extentReport.html");
 	public ExtentTest test;	
 	
 	
