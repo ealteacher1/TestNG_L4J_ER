@@ -36,8 +36,10 @@ public class Commons {
 	public ITestResult result;
 	
 	public ExtentReports reports = new ExtentReports();
-	public ExtentSparkReporter htmlReporter=new ExtentSparkReporter("Results/shamsevanExtentRep_"+System.currentTimeMillis()+".html");
+//	public ExtentSparkReporter htmlReporter=new ExtentSparkReporter("Results/shamsevanExtentRep_"+System.currentTimeMillis()+".html");
+	public ExtentSparkReporter htmlReporter=new ExtentSparkReporter("Results/shamsevan.html");
 	public ExtentTest test;	
+	
 	
 
 	
