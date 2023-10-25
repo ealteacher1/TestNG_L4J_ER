@@ -28,6 +28,7 @@ public class ExTest extends Utilities {
 	  test.info("User Successfully land on Homepage and Title Veified");	  
 	  //validate page title 
 	  test.pass("HomePage title verified");  
+	  System.out.println("Welcome To easy Automation Labs.");
   }
   
   @Test
